@@ -469,7 +469,7 @@
       <div class="header-actions">
         <div class="header-meta">
           <span class="live-dot" aria-hidden="true"></span>
-          Atualizado · jul 2026
+          Atualizado · 22 jul 2026
         </div>
         <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Alternar tema claro/escuro" title="Alternar tema">
           <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -487,14 +487,15 @@
       <h1>Vagas no Brasil<br />e <em>freelas</em> em aberto.</h1>
       <p class="hero-sub">
         Curadoria de Rails e Laravel: empresas brasileiras remotas, nearshore em dólar e projetos freelance no Upwork, Workana e Arc.
+        <br /><strong style="color:var(--text);font-weight:500">Pesquisa de vagas: 22 jul 2026.</strong>
       </p>
       <div class="stats">
         <div class="stat rails">
-          <div class="stat-value">27+</div>
+          <div class="stat-value">26+</div>
           <div class="stat-label">Rails no BR</div>
         </div>
         <div class="stat laravel">
-          <div class="stat-value">22+</div>
+          <div class="stat-value">24+</div>
           <div class="stat-label">Laravel no BR</div>
         </div>
         <div class="stat br">
@@ -550,12 +551,12 @@
         <a class="board" href="https://www.remoterocketship.com/br/vagas/ruby-on-rails/" target="_blank" rel="noopener">
           <div class="board-tag">Rails · BR</div>
           <strong>Remote Rocketship BR</strong>
-          <span>~27 vagas Rails remotas no Brasil</span>
+          <span>~26 vagas Rails remotas no Brasil · 22 jul 2026</span>
         </a>
         <a class="board" href="https://www.remoterocketship.com/br/vagas/laravel/" target="_blank" rel="noopener">
           <div class="board-tag">Laravel · BR</div>
           <strong>Remote Rocketship BR</strong>
-          <span>~22 vagas Laravel remotas no Brasil</span>
+          <span>~24 vagas Laravel remotas no Brasil · 22 jul 2026</span>
         </a>
         <a class="board" href="https://programathor.com.br/jobs-ruby-on-rails" target="_blank" rel="noopener">
           <div class="board-tag">Rails · BR</div>
@@ -653,8 +654,8 @@
     </div>
 
     <footer>
-      <div>Remote Stack · BR + Freelance · Rails & Laravel · jul 2026</div>
-      <div>Fontes: Remote Rocketship · RubyOnRemote · Revelo · Workana · Upwork · Glassdoor · Indeed</div>
+      <div>Remote Stack · BR + Freelance · Rails & Laravel · pesquisado em 22 jul 2026</div>
+      <div>Fontes: Remote Rocketship · RubyOnRemote · LaraJobs · Revelo · Workana · Upwork · LinkedIn · Indeed</div>
     </footer>
   </div>
 
@@ -677,8 +678,21 @@
       });
     })();
 
+    // Pesquisa de vagas: 22 jul 2026 — posted = data da pesquisa
     const jobs = [
       // ——— BRASIL · RAILS ———
+      {
+        stack: "rails", region: "br", type: "fulltime",
+        title: "Pessoa Desenvolvedora Ruby on Rails — Sênior",
+        company: "FCamara",
+        salary: null,
+        location: "Remoto · Brasil",
+        level: "Sênior",
+        note: "Publicada há ~2h no RRS",
+        posted: "22 jul 2026",
+        url: "https://www.remoterocketship.com/br/empresa/fcamara/vagas/desenvolvedora-ruby-on-rails-senior-brasil-remoto/",
+        tags: ["Rails", "Consultoria", "E-commerce"]
+      },
       {
         stack: "rails", region: "br", type: "fulltime",
         title: "Engenharia Backend Pleno — Ruby on Rails",
@@ -686,21 +700,21 @@
         salary: null,
         location: "Remoto · Brasil",
         level: "Pleno",
-        note: "SaaS marketing · afirmativa mulheres",
-        posted: "Aberta",
+        note: "SaaS marketing · RRS",
+        posted: "22 jul 2026",
         url: "https://www.remoterocketship.com/br/empresa/rdstation-3/vagas/engenheiro-de-software-backend-pleno-ruby-on-rails-brasil-remoto/",
-        tags: ["Rails", "Kafka", "ElasticSearch"]
+        tags: ["Rails", "Backend", "SaaS"]
       },
       {
         stack: "rails", region: "br", type: "fulltime",
-        title: "Backend Pleno — Billing",
+        title: "Backend Sênior — Billing",
         company: "RD Station",
         salary: null,
         location: "Remoto · Brasil",
-        level: "Pleno",
+        level: "Sênior",
         note: "Billing · Postgres",
-        posted: "Aberta",
-        url: "https://www.remoterocketship.com/br/empresa/rdstation-3/vagas/engenheiro-de-software-backend-pleno-billing-brasil-remoto/",
+        posted: "22 jul 2026",
+        url: "https://www.remoterocketship.com/br/empresa/rdstation-3/vagas/senior-backend-software-engineer-billing-brasil-remoto/",
         tags: ["Rails", "Billing", "Postgres"]
       },
       {
@@ -711,9 +725,9 @@
         location: "Remoto · Brasil",
         level: "Sênior",
         note: "Sistemas distribuídos",
-        posted: "Aberta",
+        posted: "22 jul 2026",
         url: "https://www.remoterocketship.com/br/empresa/rdstation-3/vagas/senior-backend-software-engineer-streaming-de-dados-ruby-on-rails-brasil-remoto/",
-        tags: ["Rails", "Kafka", "NoSQL"]
+        tags: ["Rails", "Kafka", "Streaming"]
       },
       {
         stack: "rails", region: "br", type: "fulltime",
@@ -722,10 +736,10 @@
         salary: null,
         location: "Remoto · Brasil",
         level: "Sênior",
-        note: "Serviços financeiros / billing",
-        posted: "Aberta",
-        url: "https://www.remoterocketship.com/br/empresa/rdstation-3/vagas/senior-backend-software-engineer-ruby-on-rails-brasil-remoto/",
-        tags: ["Rails", "Redis", "K8s"]
+        note: "Até 14/09/2026 · afirmativa mulheres",
+        posted: "22 jul 2026",
+        url: "https://www.remoterocketship.com/br/empresa/rdstation-3/vagas/engenheiro-de-software-backend-senior-ruby-on-rails-brasil-remoto/",
+        tags: ["Rails", "Redis", "Backend"]
       },
       {
         stack: "rails", region: "br", type: "fulltime",
@@ -735,7 +749,7 @@
         location: "Remoto · Brasil",
         level: "Pleno",
         note: "Saúde · impacto social",
-        posted: "Aberta",
+        posted: "22 jul 2026",
         url: "https://www.remoterocketship.com/br/empresa/inovadora-sistemas-br/vagas/desenvolvedor-ruby-on-rails-brasil-remoto/",
         tags: ["Rails", "MySQL", "Postgres"]
       },
@@ -747,7 +761,7 @@
         location: "Remoto · Brasil",
         level: "Pleno",
         note: "Vaga afirmativa PCD",
-        posted: "Aberta",
+        posted: "22 jul 2026",
         url: "https://www.remoterocketship.com/br/empresa/clicksign/vagas/desenvolvedor-a-backend-frontend-vaga-afirmativa-para-pessoa-com-deficiencia-brasil-remoto/",
         tags: ["Rails", "Vue", "TypeScript"]
       },
@@ -759,7 +773,7 @@
         location: "Remoto · Brasil",
         level: "Sênior / Lead",
         note: "Rails + Go + IA",
-        posted: "Aberta",
+        posted: "22 jul 2026",
         url: "https://www.remoterocketship.com/br/empresa/clicksign/vagas/desenvolvedor-a-backend-senior-atuacao-tech-lead-brasil-remoto/",
         tags: ["Rails", "Go", "AI"]
       },
@@ -770,22 +784,10 @@
         salary: null,
         location: "Remoto · Brasil",
         level: "Lead",
-        note: "Benefícios saúde BR/MX",
-        posted: "Aberta",
+        note: "Fullstack · consultoria",
+        posted: "22 jul 2026",
         url: "https://www.remoterocketship.com/br/empresa/fcamara/vagas/tech-lead-fullstack-brasil-remoto/",
-        tags: ["Rails", "TypeScript", "K8s"]
-      },
-      {
-        stack: "rails", region: "br", type: "fulltime",
-        title: "Pessoa Desenvolvedora Rails Pleno/Sênior",
-        company: "FCamara",
-        salary: null,
-        location: "Remoto · Brasil",
-        level: "Pleno/Sênior",
-        note: "Glassdoor · 3 dias",
-        posted: "Recente",
-        url: "https://www.glassdoor.com.br/Vaga/brasil-ruby-on-rails-vagas-SRCH_IL.0,6_IN36_KO7,20.htm",
-        tags: ["Rails", "Consultoria"]
+        tags: ["Rails", "TypeScript", "Lead"]
       },
       {
         stack: "rails", region: "br", type: "fulltime",
@@ -794,168 +796,312 @@
         salary: null,
         location: "Remoto · Brasil",
         level: "Sênior",
-        note: "API-only + monólitos",
-        posted: "Aberta",
+        note: "Saúde/bem-estar · API + monólitos",
+        posted: "22 jul 2026",
         url: "https://www.roberthalf.com/br/pt/vaga/brazil/desenvolvedora-ruby-on-rails-s%C3%AAnior/63610-0013425149-brpt",
-        tags: ["Rails", "API", "Arquitetura"]
-      },
-      {
-        stack: "rails", region: "br", type: "contract",
-        title: "Senior Software Engineer (contract)",
-        company: "Verve",
-        salary: null,
-        location: "Brazil",
-        level: "Sênior · Contract",
-        note: "Contrato · Brasil",
-        posted: "Jun",
-        url: "https://rubyonremote.com/jobs/74102-senior-software-engineer-contract-at-verve",
-        tags: ["Rails", "Contract"]
-      },
-      {
-        stack: "rails", region: "latam", type: "fulltime",
-        title: "Senior Ruby Developer (EU/LatAm/NA)",
-        company: "Perry Street Software",
-        salary: null,
-        location: "LatAm · EU · NA",
-        level: "Sênior",
-        note: "Aceita LatAm 🇧🇷",
-        posted: "Featured",
-        url: "https://rubyonremote.com/jobs/73278-senior-ruby-developer-eu-latam-na-at-perry-street-software",
-        tags: ["Rails", "LatAm"]
-      },
-      {
-        stack: "rails", region: "latam", type: "fulltime",
-        title: "Ruby on Rails Developer — LATAM",
-        company: "Somewhere",
-        salary: "até US$ 3.000/mês",
-        location: "Remote · LATAM",
-        level: "Mid/Senior",
-        note: "Horário EST/CST",
-        posted: "Aberta",
-        url: "https://www.linkedin.com/jobs/view/ruby-on-rails-developer-at-somewhere-4139515002",
-        tags: ["Rails", "LATAM", "USD"]
-      },
-      {
-        stack: "rails", region: "ww", type: "fulltime",
-        title: "Senior Full Stack Software Engineer",
-        company: "Instrumentl",
-        salary: "US$ 120–160k",
-        location: "Worldwide",
-        level: "Sênior",
-        note: "Worldwide",
-        posted: "Featured",
-        url: "https://rubyonremote.com/jobs/63098-senior-full-stack-software-engineer-at-instrumentl",
-        tags: ["Rails", "Full-stack"]
-      },
-      {
-        stack: "rails", region: "ww", type: "fulltime",
-        title: "Senior Software Engineer (Rails, AWS)",
-        company: "Arc exclusive",
-        salary: "US$ 35–40k",
-        location: "Worldwide · BR ok",
-        level: "Sênior",
-        note: "Overlap Pacific Time",
-        posted: "Arc",
-        url: "https://arc.dev/en-br/remote-jobs",
-        tags: ["Rails", "AWS", "CI/CD"]
+        tags: ["Rails", "API", "Postgres"]
       },
       {
         stack: "rails", region: "br", type: "fulltime",
-        title: "Customer Solutions Engineer (Rails)",
-        company: "MyTime",
+        title: "Ruby on Rails Developer — Remote",
+        company: "BairesDev",
         salary: null,
-        location: "Remote in Brazil",
-        level: "Mid",
-        note: "Exclusivo Brasil 🇧🇷",
-        posted: "Recente",
-        url: "https://www.builtinla.com/jobs/remote/dev-engineering/ruby",
-        tags: ["Rails", "Customer"]
+        location: "Remoto · Brasil",
+        level: "Mid/Senior",
+        note: "Consultoria global · LinkedIn",
+        posted: "22 jul 2026",
+        url: "https://br.linkedin.com/jobs/view/ruby-on-rails-developer-remote-work-at-bairesdev-4442237103",
+        tags: ["Rails", "Consultoria"]
+      },
+      {
+        stack: "rails", region: "latam", type: "fulltime",
+        title: "Engenheiro Sênior — Pagamentos (Remoto LATAM)",
+        company: "Playbypoint",
+        salary: null,
+        location: "Remoto · LATAM",
+        level: "Sênior",
+        note: "Pagamentos · LatAm",
+        posted: "22 jul 2026",
+        url: "https://www.remoterocketship.com/br/empresa/playbypoint/vagas/engenheiro-de-software-senior-pagamentos-brasil-remoto/",
+        tags: ["Rails", "Payments", "LATAM"]
+      },
+      {
+        stack: "rails", region: "br", type: "fulltime",
+        title: "Engenheiro Backend Sênior",
+        company: "Lovevery",
+        salary: null,
+        location: "Remoto · Brasil",
+        level: "Sênior",
+        note: "Produto infantil · RRS",
+        posted: "22 jul 2026",
+        url: "https://www.remoterocketship.com/br/empresa/lovevery/vagas/engenheiro-backend-senior-brasil-remoto/",
+        tags: ["Rails", "Backend"]
+      },
+      {
+        stack: "rails", region: "br", type: "fulltime",
+        title: "Dev Ruby on Rails Júnior [Remoto]",
+        company: "Husky",
+        salary: null,
+        location: "Remoto · Brasil",
+        level: "Júnior",
+        note: "Entrada · Rails",
+        posted: "22 jul 2026",
+        url: "https://www.remoterocketship.com/br/empresa/husky-io/vagas/junior-developer-ruby-on-rails-brasil-remoto/",
+        tags: ["Rails", "Júnior"]
+      },
+      {
+        stack: "rails", region: "latam", type: "fulltime",
+        title: "Ruby Developer (Remote · LatAm)",
+        company: "Hire Feed",
+        salary: null,
+        location: "Remote · Latin America",
+        level: "Sênior",
+        note: "LLM evaluation · part-time option",
+        posted: "22 jul 2026",
+        url: "https://www.linkedin.com/jobs/view/ruby-developer-remote-at-hire-feed-4442573595",
+        tags: ["Rails", "Ruby", "LATAM"]
+      },
+      {
+        stack: "rails", region: "ww", type: "contract",
+        title: "Software Engineer (Rails) — 12+ meses",
+        company: "Pivotal Solutions",
+        salary: null,
+        location: "Remote",
+        level: "Mid/Senior · Contract",
+        note: "Contrato longo · full remote",
+        posted: "22 jul 2026",
+        url: "https://www.linkedin.com/jobs/view/software-engineer-ruby-on-rails-remote-at-pivotal-solutions-4441001701",
+        tags: ["Rails", "Contract"]
+      },
+      {
+        stack: "rails", region: "ww", type: "fulltime",
+        title: "Ruby on Rails Engineer",
+        company: "OnTheGoSystems",
+        salary: null,
+        location: "Remote · EU/UK",
+        level: "Mid/Senior",
+        note: "Publicada 8 jul 2026 · AI + Rails",
+        posted: "22 jul 2026",
+        url: "https://rubyonremote.com/jobs/74456-ruby-on-rails-engineer-at-onthegosystems",
+        tags: ["Rails", "AI", "Remote"]
+      },
+      {
+        stack: "rails", region: "ww", type: "fulltime",
+        title: "Senior Software Engineer (Acquisition)",
+        company: "Butternut Box",
+        salary: null,
+        location: "Remote",
+        level: "Sênior",
+        note: "Rails + Postgres · growth",
+        posted: "22 jul 2026",
+        url: "https://rubyonremote.com/jobs/74600-senior-software-engineer-acquisition-at-butternut-box",
+        tags: ["Rails", "Postgres", "Growth"]
+      },
+      {
+        stack: "rails", region: "latam", type: "contract",
+        title: "Nearshore Rails via Tecla network",
+        company: "Tecla",
+        salary: "USD market rate",
+        location: "LATAM remote",
+        level: "Mid/Senior",
+        note: "Staffing nearshore",
+        posted: "22 jul 2026",
+        url: "https://www.tecla.io/network/nearshore-ruby-on-rails-developers",
+        tags: ["Nearshore", "Rails", "LATAM"]
       },
 
-      // ——— BRASIL / NEARSHORE · LARAVEL ———
+      // ——— BRASIL / NEARSHORE · LARAVEL / PHP ———
       {
         stack: "laravel", region: "br", type: "fulltime",
-        title: "Desenvolvedor Full Stack Laravel",
-        company: "OW Interactive",
+        title: "Desenvolvedor(a) PHP Laravel — 100% Remoto",
+        company: "Preço do Gás",
         salary: null,
         location: "Remoto · Brasil",
         level: "Pleno",
-        note: "Laravel + REST APIs",
-        posted: "Indeed",
-        url: "https://br.indeed.com/q-laravel-remoto-vagas.html",
+        note: "APIs e sistemas web · LinkedIn",
+        posted: "22 jul 2026",
+        url: "https://br.linkedin.com/jobs/view/desenvolvedor-a-php-laravel-%E2%80%94-100%25-remoto-at-pre%C3%A7o-do-g%C3%A1s-4443342565",
         tags: ["Laravel", "PHP", "API"]
       },
       {
         stack: "laravel", region: "br", type: "fulltime",
-        title: "Full Stack Engineer (Laravel) — Remote",
-        company: "BairesDev",
+        title: "Tech Lead — PHP/React",
+        company: "FCamara",
         salary: null,
-        location: "Remoto · BR",
+        location: "Remoto · Brasil",
+        level: "Lead",
+        note: "PHP + React · RRS",
+        posted: "22 jul 2026",
+        url: "https://www.remoterocketship.com/br/empresa/fcamara/vagas/tech-lead-php-react-brasil-remoto/",
+        tags: ["PHP", "React", "Lead"]
+      },
+      {
+        stack: "laravel", region: "br", type: "fulltime",
+        title: "Senior Backend Engineer (PHP & Laravel)",
+        company: "Oowlish",
+        salary: null,
+        location: "Remoto · Brasil / LatAm",
+        level: "Sênior",
+        note: "Nearshore US · RRS",
+        posted: "22 jul 2026",
+        url: "https://www.remoterocketship.com/br/empresa/oowlish/vagas/senior-backend-engineer-php-laravel-brasil-remoto/",
+        tags: ["Laravel", "PHP", "Nearshore"]
+      },
+      {
+        stack: "laravel", region: "br", type: "fulltime",
+        title: "Laravel + React Native (Financeiro) — Pleno",
+        company: "Sioux digital 1:1",
+        salary: null,
+        location: "Remoto · Brasil",
+        level: "Pleno",
+        note: "Financeiro · mobile",
+        posted: "22 jul 2026",
+        url: "https://www.remoterocketship.com/br/empresa/sioux-ag/vagas/desenvolvedor-a-laravel-react-native-pleno-brasil-remoto/",
+        tags: ["Laravel", "React Native", "Fintech"]
+      },
+      {
+        stack: "laravel", region: "br", type: "fulltime",
+        title: "Fullstack Laravel + Vue (Financeiro) — Sênior",
+        company: "Sioux digital 1:1",
+        salary: null,
+        location: "Remoto · Brasil",
+        level: "Sênior",
+        note: "Laravel + Vue",
+        posted: "22 jul 2026",
+        url: "https://www.remoterocketship.com/br/empresa/sioux-ag/vagas/desenvolvedor-a-fullstack-laravel-vue-senior-brasil-remoto/",
+        tags: ["Laravel", "Vue", "Full-stack"]
+      },
+      {
+        stack: "laravel", region: "br", type: "fulltime",
+        title: "Desenvolvedor PHP Pleno",
+        company: "Join Creative Tech",
+        salary: null,
+        location: "Remoto · Brasil",
+        level: "Pleno",
+        note: "PHP · RRS",
+        posted: "22 jul 2026",
+        url: "https://www.remoterocketship.com/br/empresa/jointecnologia-com-br/vagas/desenvolvedor-php-pleno-brasil-remoto/",
+        tags: ["PHP", "Laravel"]
+      },
+      {
+        stack: "laravel", region: "br", type: "fulltime",
+        title: "Back-End PHP — Meios de pagamentos",
+        company: "AlugaMais",
+        salary: null,
+        location: "Remoto · Brasil",
+        level: "Pleno",
+        note: "Pagamentos · proptech",
+        posted: "22 jul 2026",
+        url: "https://www.remoterocketship.com/br/empresa/alugamaisapp-com-br/vagas/desenvolvedor-back-end-php-meios-de-pagamentos-brasil-remoto/",
+        tags: ["PHP", "Payments"]
+      },
+      {
+        stack: "laravel", region: "br", type: "fulltime",
+        title: "Laravel Developer",
+        company: "DevSquad",
+        salary: null,
+        location: "Remoto · Brasil",
         level: "Mid/Senior",
-        note: "Consultoria global",
-        posted: "LinkedIn",
-        url: "https://br.linkedin.com/jobs/desenvolvedor-full-stack-%28php-laravel%29-vagas",
+        note: "Squad remota · RRS",
+        posted: "22 jul 2026",
+        url: "https://www.remoterocketship.com/br/empresa/devsquad/vagas/laravel-developer-brasil-remoto/",
+        tags: ["Laravel", "PHP"]
+      },
+      {
+        stack: "laravel", region: "br", type: "fulltime",
+        title: "Full Stack Sênior — PHP/Laravel",
+        company: "NewRich Network",
+        salary: null,
+        location: "Remoto · Brasil",
+        level: "Sênior",
+        note: "PHP/Laravel full-stack",
+        posted: "22 jul 2026",
+        url: "https://www.remoterocketship.com/br/empresa/newrich-network/vagas/desenvolvedor-full-stack-senior-php-laravel-brasil-remoto/",
         tags: ["Laravel", "Full-stack"]
+      },
+      {
+        stack: "laravel", region: "br", type: "fulltime",
+        title: "PHP/Laravel Pleno (híbrido ou remoto)",
+        company: "Sylision",
+        salary: "R$ 7–12k/mês",
+        location: "Híbrido/remoto · BR/PT",
+        level: "Pleno",
+        note: "CLT · faixa divulgada",
+        posted: "22 jul 2026",
+        url: "https://www.devvagas.com.br/jobs/c16f840f-3753-4070-960e-d009c807a7da-hibrido-desenvolvedor-a-php-laravel-pleno-sylision-sylision",
+        tags: ["Laravel", "CLT", "PHP"]
+      },
+      {
+        stack: "laravel", region: "br", type: "fulltime",
+        title: "Desenvolvedor PHP Pleno — Logtech/Fintech",
+        company: "TruckPag",
+        salary: null,
+        location: "Remoto · Cascavel/PR",
+        level: "Pleno",
+        note: "PHP 8 / Laravel · meios de pagamento",
+        posted: "22 jul 2026",
+        url: "https://vagasparapr.com.br/external/candidata-ai/vaga/2a7404df-c4a4-49e9-9c28-0c9b2eb0a960/cascavelprremoto-desenvolvedora-php-pleno",
+        tags: ["Laravel", "Fintech", "PHP8"]
       },
       {
         stack: "laravel", region: "latam", type: "fulltime",
         title: "Desenvolvedor(a) Laravel Senior",
         company: "Revelo",
-        salary: "US$ 5.950/mês",
+        salary: "US$ 5–7k/mês tip.",
         location: "Remoto · nearshore",
-        level: "Sênior · 6+ anos",
+        level: "Sênior",
         note: "USD + benefícios Revelo",
-        posted: "Revelo",
+        posted: "22 jul 2026",
         url: "https://careers.revelo.com/oportunidades/laravel",
         tags: ["Laravel", "USD", "PJ"]
       },
       {
-        stack: "laravel", region: "latam", type: "fulltime",
-        title: "Backend Laravel",
-        company: "Revelo",
-        salary: "US$ 5.530/mês",
-        location: "Remoto · nearshore",
-        level: "4+ anos",
-        note: "USD · férias + saúde",
-        posted: "Revelo",
-        url: "https://careers.revelo.com/oportunidades/laravel",
-        tags: ["Laravel", "Backend", "USD"]
+        stack: "laravel", region: "ww", type: "fulltime",
+        title: "Senior Software Engineer (Laravel)",
+        company: "Greater Good Health",
+        salary: "US$ 130–150k",
+        location: "CA ou Remote",
+        level: "Sênior",
+        note: "LaraJobs · ~1 dia",
+        posted: "22 jul 2026",
+        url: "https://larajobs.com/job/3907",
+        tags: ["Laravel", "Livewire", "API"]
       },
       {
-        stack: "laravel", region: "br", type: "fulltime",
-        title: "PHP/Laravel Software Architect — LatAm",
-        company: "Oowlish / Laravagas",
+        stack: "laravel", region: "ww", type: "fulltime",
+        title: "SaaS Application Developer (Laravel)",
+        company: "SecureIT Swiss AG",
         salary: null,
-        location: "Remote · Latin America",
-        level: "Architect",
-        note: "LatAm remote",
-        posted: "Laravagas",
-        url: "https://laravagas.com.br/",
-        tags: ["Laravel", "Architect", "LatAm"]
+        location: "100% Remote",
+        level: "Mid/Senior",
+        note: "Multi-tenant · Vue · ~2 dias",
+        posted: "22 jul 2026",
+        url: "https://larajobs.com/job/3906",
+        tags: ["Laravel", "SaaS", "Vue"]
       },
       {
-        stack: "laravel", region: "br", type: "fulltime",
-        title: "Desenvolvedor PHP JR — 100% remoto",
-        company: "Idomestica",
-        salary: "R$ 4.000/mês",
-        location: "Remoto · Brasil",
-        level: "Júnior",
-        note: "Laravel + Filament · mentoria",
-        posted: "Recente",
-        url: "https://www.instagram.com/p/DOJULWLABk6/",
-        tags: ["Laravel", "Filament", "JR"]
-      },
-      {
-        stack: "laravel", region: "br", type: "pj",
-        title: "Full Stack Pleno — Laravel + React",
-        company: "Root Code / ProgramaThor",
+        stack: "laravel", region: "ww", type: "contract",
+        title: "Senior Laravel Engineer",
+        company: "HelpBnk",
         salary: null,
-        location: "Remoto · Startup",
-        level: "Pleno · PJ",
-        note: "Histórico de vagas similares",
-        posted: "Board",
-        url: "https://programathor.com.br/jobs-laravel",
-        tags: ["Laravel", "React", "PJ"]
+        location: "Remote / Europe",
+        level: "Sênior · Contractor",
+        note: "LaraJobs · ~1 semana",
+        posted: "22 jul 2026",
+        url: "https://larajobs.com/job/3905",
+        tags: ["Laravel", "React", "Contract"]
+      },
+      {
+        stack: "laravel", region: "ww", type: "fulltime",
+        title: "Full-Stack Developer (Laravel + Inertia/Vue)",
+        company: "Greenwood Capital",
+        salary: "£60–70k",
+        location: "Remote/Hybrid · UK",
+        level: "Mid/Senior",
+        note: "LaraJobs · ~1 semana",
+        posted: "22 jul 2026",
+        url: "https://larajobs.com/job/3904",
+        tags: ["Laravel", "Inertia", "Vue"]
       },
       {
         stack: "laravel", region: "ww", type: "fulltime",
@@ -964,70 +1110,46 @@
         salary: "~US$ 125k",
         location: "Remote / USA",
         level: "Sênior",
-        note: "Board LaraJobs",
-        posted: "13h",
+        note: "LaraJobs · ~2 semanas",
+        posted: "22 jul 2026",
         url: "https://larajobs.com/job/3902",
         tags: ["Laravel", "Full-stack"]
       },
       {
-        stack: "laravel", region: "ww", type: "fulltime",
-        title: "Product Engineer (Laravel)",
-        company: "Hospitable",
-        salary: "US$ 134–167k",
-        location: "Remote · EMEA/USA",
-        level: "Sênior",
-        note: "Core & Connectivity",
-        posted: "3w",
-        url: "https://larajobs.com/job/3888",
-        tags: ["Laravel", "Backend"]
+        stack: "laravel", region: "latam", type: "fulltime",
+        title: "PHP/Laravel remoto US (via Turing)",
+        company: "Turing",
+        salary: "USD",
+        location: "Remoto · empresas US",
+        level: "Mid/Senior",
+        note: "Match com clientes US",
+        posted: "22 jul 2026",
+        url: "https://www.turing.com/pt/jobs/vagas-php-laravel",
+        tags: ["Nearshore", "Laravel", "USD"]
       },
 
       // ——— FREELANCE ———
       {
         stack: "laravel", region: "br", type: "freelance",
-        title: "Sistema de gestão de contratos (cuidadores)",
-        company: "Cliente Workana",
+        title: "Projetos Laravel no Workana",
+        company: "Workana marketplace",
         salary: "Projeto · bid",
-        location: "Brasil · remote",
-        level: "Full-stack",
-        note: "Laravel + MySQL · sem WordPress",
-        posted: "11h",
+        location: "Brasil · LatAm remote",
+        level: "Todos",
+        note: "Board LatAm · PT/ES",
+        posted: "22 jul 2026",
         url: "https://www.workana.com/jobs?skills=laravel",
         tags: ["Freelance", "Laravel", "Workana"]
       },
       {
-        stack: "laravel", region: "br", type: "freelance",
-        title: "Módulo de cobrança automática (aluguéis)",
-        company: "Cliente Workana",
-        salary: "Projeto · bid",
-        location: "Brasil · remote",
-        level: "Mid/Senior",
-        note: "Laravel + API + MySQL",
-        posted: "7h",
-        url: "https://www.workana.com/job/desenvolvimento-de-modulo-de-cobranca-automatica-para-alugueis-em-laravel",
-        tags: ["Freelance", "Laravel", "Billing"]
-      },
-      {
-        stack: "laravel", region: "br", type: "freelance",
-        title: "Web → App Android/iOS (ComodiQ)",
-        company: "Cliente Workana",
-        salary: "Projeto · bid",
-        location: "Brasil · remote",
-        level: "Mobile + Laravel",
-        note: "React Native/Flutter + backend",
-        posted: "5h",
-        url: "https://www.workana.com/job/desenvolvedor-para-transformar-plataforma-web-em-aplicativo-android-e-ios-e-publicacao-nas-loja",
-        tags: ["Freelance", "Mobile", "Laravel"]
-      },
-      {
         stack: "laravel", region: "ww", type: "freelance",
-        title: "Laravel Framework Jobs (324 abertos)",
+        title: "Laravel Framework Jobs (Upwork)",
         company: "Upwork marketplace",
-        salary: "US$ 20–80/h típico",
+        salary: "US$ 20–80/h tip.",
         location: "Global remote",
         level: "Todos",
-        note: "Board com 324+ jobs",
-        posted: "Live",
+        note: "Gigs + long-term",
+        posted: "22 jul 2026",
         url: "https://www.upwork.com/freelance-jobs/laravel-framework/",
         tags: ["Freelance", "Upwork", "Laravel"]
       },
@@ -1035,11 +1157,11 @@
         stack: "rails", region: "ww", type: "freelance",
         title: "Ruby on Rails Freelance Jobs",
         company: "Upwork marketplace",
-        salary: "US$ 30–90/h típico",
+        salary: "US$ 30–90/h tip.",
         location: "Global remote",
         level: "Todos",
         note: "Gigs + long-term",
-        posted: "Live",
+        posted: "22 jul 2026",
         url: "https://www.upwork.com/freelance-jobs/ruby-on-rails/",
         tags: ["Freelance", "Upwork", "Rails"]
       },
@@ -1051,57 +1173,33 @@
         location: "Global remote",
         level: "Top 3%",
         note: "Vetting rigoroso",
-        posted: "Ongoing",
+        posted: "22 jul 2026",
         url: "https://www.toptal.com/freelance-jobs/developers/laravel",
         tags: ["Freelance", "Toptal"]
       },
       {
-        stack: "rails", region: "br", type: "contract",
-        title: "Senior Software Engineer (contract) · Brazil",
-        company: "Verve",
-        salary: null,
-        location: "Brazil",
-        level: "Sênior · Contract",
-        note: "Contrato freelance-like",
-        posted: "Jun",
-        url: "https://rubyonremote.com/jobs/74102-senior-software-engineer-contract-at-verve",
-        tags: ["Contract", "Rails", "BR"]
-      },
-      {
         stack: "laravel", region: "ww", type: "freelance",
-        title: "Senior Full-stack — Laravel + WordPress",
+        title: "Laravel remote jobs (Arc)",
         company: "Arc.dev",
-        salary: "Hourly",
+        salary: "Hourly / FT",
         location: "Worldwide freelance",
-        level: "Sênior",
-        note: "FT-WW · freelance",
-        posted: "Arc",
+        level: "Mid/Senior",
+        note: "Full-time e freelance",
+        posted: "22 jul 2026",
         url: "https://arc.dev/remote-jobs/laravel",
-        tags: ["Freelance", "Laravel", "WP"]
+        tags: ["Freelance", "Laravel", "Arc"]
       },
       {
-        stack: "rails", region: "latam", type: "contract",
-        title: "Nearshore Rails via Tecla network",
-        company: "Tecla",
-        salary: "USD market rate",
-        location: "LATAM remote",
+        stack: "rails", region: "ww", type: "freelance",
+        title: "Rails remote jobs (Arc Brasil)",
+        company: "Arc.dev",
+        salary: "Hourly / FT",
+        location: "Worldwide · BR ok",
         level: "Mid/Senior",
-        note: "Staffing nearshore",
-        posted: "Ongoing",
-        url: "https://www.tecla.io/network/nearshore-ruby-on-rails-developers",
-        tags: ["Nearshore", "Rails", "LATAM"]
-      },
-      {
-        stack: "laravel", region: "latam", type: "fulltime",
-        title: "PHP/Laravel remoto US (via Turing)",
-        company: "Turing",
-        salary: "USD",
-        location: "Remoto · empresas US",
-        level: "Mid/Senior",
-        note: "Match com clientes US",
-        posted: "Ongoing",
-        url: "https://www.turing.com/pt/jobs/vagas-php-laravel",
-        tags: ["Nearshore", "Laravel", "USD"]
+        note: "Board global",
+        posted: "22 jul 2026",
+        url: "https://arc.dev/en-br/remote-jobs",
+        tags: ["Freelance", "Rails", "Arc"]
       }
     ];
 
